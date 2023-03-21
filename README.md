@@ -37,7 +37,36 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+Developed by : Shriram R
+
+Reg. no.: 212221240053
+~~~
+
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EX1 : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.down, Vector3.right, 90 * Time.deltaTime);
+    }
+}
+~~~
 
 ## Output:
+![](s1.jpeg)
+![](s2.jpeg)
 
 ## Result:
+Thus a 3D application for rotating the gaming objects in unity is developed successfully.
+
